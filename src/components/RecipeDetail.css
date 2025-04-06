@@ -1,0 +1,77 @@
+/* src/components/RecipeDetail.css */
+.recipe-detail-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2c698d;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .back-btn:hover {
+    text-decoration: underline;
+  }
+  
+  .recipe-detail-container h1 {
+    color: #2c698d;
+    margin-bottom: 20px;
+  }
+  
+  .recipe-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 20px 0;
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .meta-label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 5px;
+  }
+  
+  .recipe-content {
+    margin-top: 30px;
+  }
+  
+  .ingredients-section, .instructions-section {
+    margin-bottom: 30px;
+  }
+  
+  .ingredients-section h2, .instructions-section h2 {
+    color: #2c698d;
+    border-bottom: 2px solid #2c698d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  pre.ingredients, pre.cooking-steps {
+    white-space: pre-wrap;
+    font-family: inherit;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    line-height: 1.6;
+    font-size: 1rem;
+  }
+  
+  .loading, .error, .not-found {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .error {
+    color: #d32f2f;
+  }
+  
+  .not-found {
+    color: #555;
+  }
